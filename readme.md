@@ -44,16 +44,6 @@ AFP is the native file and printer sharing protocol for Macs and it supports man
  
  
  
- 
-
-
-
-
-
-
-
-
-
 
 ### distributed storage detaylı anlatımlar 
 
@@ -64,10 +54,11 @@ AFP is the native file and printer sharing protocol for Macs and it supports man
 - [Windows Storage System](WindowsStorage.md)
 - [sata, para, sas, scsi, iscsi](sas_scsi_iscsi_sata_pata_esxi.md)
 - [fuse - posix](FUSE_POSIX.md)
-- 
 
 
- - windows üzerinde samba testi. [kaynak](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/file-share--smb--symbol-server)
+### windows üzerinde samba testi. 
+ 
+ [kaynak](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/file-share--smb--symbol-server)
  
  aynı makinada \MachineName\Symbol paylaştırılmış path i C:\Symbols  atında samb aile bağlıymış gibi test etmek
  
@@ -75,17 +66,15 @@ AFP is the native file and printer sharing protocol for Macs and it supports man
  srv*C:\Symbols*\\MachineName\Symbols
  ```
 
-### Ansible İlk Deneme
+### Ceph Kurumları
 
-Octobus desteği ansible a tam gelmeden önce deneme yapmıştım
+- [Ansible İlk Deneme : Octobus desteği ansible a tam gelmeden önce deneme yapmıştım](installation/installation.md)
 
-### Hardway Full Manuel Kurulum 
+- [Hardway Full Manuel Kurulum](installation2/readme.md)
 
+- [Cephadm ile kurulum](installation2/readme.md)
 
-### Cephadm ile kurulum
-
-
-### Ansible Octobus Ceph 15 - Ubunut 20.04 kurulumu
+- [Ansible Octobus Ceph 15 - Ubunut 20.04 kurulumu](installation4/readme.md)
 
 
 
